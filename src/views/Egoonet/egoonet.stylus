@@ -1,0 +1,4 @@
+@import '../../assets/extends.stylus'
+
+.egoonet
+  @extend .app-pannel

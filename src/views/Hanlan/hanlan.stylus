@@ -1,0 +1,4 @@
+@import '../../assets/extends.stylus'
+
+.hanlan
+  @extend .app-pannel

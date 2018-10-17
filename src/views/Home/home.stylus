@@ -1,0 +1,159 @@
+@import '../../assets/extends.stylus'
+
+.home
+  @extend .app-pannel
+
+  &>div:last-of-type
+    margin-bottom 2rem
+    padding-bottom 1rem
+
+  .first-area
+    div
+      padding 1rem
+
+    .name
+      position relative
+      display flex
+      justify-content space-between
+      align-items flex-end
+      font-size 2.5rem
+      font-weight bold
+      border-bottom solid 2px #000000
+      &::after
+        content ''
+        position absolute
+        width 2px
+        height calc(3rem + 4rem + 4px)
+        bottom calc(-3rem - 4rem - 4px)
+        left calc(50% - 1px)
+        background-color #000000
+      div
+        display inline-block
+        vertical-align bottom
+        padding 0
+      .name-job
+        font-size 1rem
+        font-weight normal
+    
+    .job
+      text-align right
+
+  .roadmap
+    padding 2rem
+
+    .roadmap-item
+      position relative
+      border-color #000000
+      border-width 2px
+      border-top-style solid
+      padding 3rem
+
+      .roadmap-desc
+        .company-name
+          cursor pointer
+
+      .roadmap-item-point
+        position absolute
+        top 2.5rem
+        width 3rem
+        height 3rem
+        background-color #ffffff
+        background-repeat no-repeat
+        background-size contain
+        background-position center
+        border solid 0.2rem #ffffff
+        filter grayscale(100%)
+      
+    .roadmap-item:nth-of-type(even)
+      border-right-style solid
+      text-align right
+      .roadmap-item-point
+          right -1.8rem
+    .roadmap-item:nth-of-type(odd)
+      border-left-style solid
+      text-align left
+      .roadmap-item-point
+          left -1.8rem
+    .roadmap-item:first-of-type
+      border-top none
+    .roadmap-item:first-of-type::before, .roadmap-item:last-of-type::after
+      content ''
+      position absolute
+      left 0
+      background-color #000000
+      height 2px
+      width 50%
+    .roadmap-item:first-of-type::before
+      top 0
+    .roadmap-item:last-of-type::after
+      bottom 0
+
+  .roadmap-end, .hobby
+    position relative
+    margin -2rem auto 0
+    width 2px
+    height calc(3rem + 4rem + 4px)
+    background-color #000000
+    div
+      position absolute
+      top 50%
+      left 50%
+      transform translate(-50%, -50%)
+      background-color #ffffff
+      padding 1rem
+      width 2rem
+    
+  .contact
+    width 100%
+    padding 1rem 0
+    text-align center
+    &.tel
+      margin-top -1rem
+
+  .technology
+    width 100%
+    padding 1rem 0
+    text-align center
+    &+.technology
+      margin-top -1rem
+
+  .split-full-line
+    width 100%
+    height 2px
+    background-color #000000
+
+  .hobby
+    margin auto
+    div
+      display flex
+      justify-content center
+      align-items center
+      img
+        height 1.5rem
+        object-fit contain
+        margin 0 1rem
+      &::before
+        content ''
+        position absolute
+        top 0
+        width 2rem
+        height 100%
+        box-sizing border-box
+        border-top solid 2px #000000
+        border-bottom solid 2px #000000
+
+  .avatar
+    text-align center
+    img
+      width 4rem
+      height 4rem
+      border solid 2px #000000
+      border-radius 100%
+      padding 4px
+      object-fit cover
+
+  .ground-line
+    text-align center
+    img
+      width 3.5rem
+

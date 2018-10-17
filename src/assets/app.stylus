@@ -1,0 +1,64 @@
+html,body,#app
+  background-color #ffffff
+#app
+  font-family 'Avenir', Helvetica, Arial, sans-serif
+  -webkit-font-smoothing antialiased
+  -moz-osx-font-smoothing grayscale
+
+.typed-cursor
+  font-size 2em
+  margin 0.67em 0
+
+.split-spacer
+  margin 2rem 0
+
+.curtain
+  position fixed
+  top 0
+  right 0
+  bottom 0
+  left 0
+  background-color #000000
+  &.open
+    animation curtain .5s
+  &.close
+    animation curtain .5s reverse
+
+@keyframes curtain
+  from
+    opacity 1
+  to
+    opacity 0
+
+.company
+  background-color #000000
+  color #ffffff
+  .company-split
+    width 100%
+    margin-top 1rem !important
+    margin-bottom 1rem !important
+    
+  &>h1, &>div, .project
+    margin auto 1rem
+    
+  .project
+    &+.project
+      margin-top 2rem
+
+    .project-name, .project-desc
+      margin-right 2rem
+      line-height 1.5rem
+      
+    .project-desc
+      .frame-view
+        margin 2rem auto
+        img
+          width 100%
+        .tip
+          text-align center
+          font-size 0.1rem
+
+.backhome
+  position absolute
+  top 1rem
+  right 0

@@ -1,0 +1,4 @@
+@import '../../assets/extends.stylus'
+
+.dada
+  @extend .app-pannel
