@@ -20,17 +20,17 @@
           <div>2010.09</div>
           <div>入学 南京邮电大学 软件工程</div>
         </div>
-        <div class="roadmap-item-point" style="background-image: url('http://oald2814c.bkt.clouddn.com/njupt.jpeg');"></div>
+        <div class="roadmap-item-point" id="njupt"></div>
       </div>
       <div class="roadmap-item">
-        <div class="roadmap-item-point" style="background-image: url('http://oald2814c.bkt.clouddn.com/graduation.png');"></div>
+        <div class="roadmap-item-point" id="graduation"></div>
         <div class="roadmap-desc">
           <div>2014.07</div>
           <div>本科 毕业</div>
         </div>
       </div>
       <div class="roadmap-item">
-        <div class="roadmap-item-point" style="background-image: url('http://oald2814c.bkt.clouddn.com/egoonet.png');"></div>
+        <div class="roadmap-item-point" id="egoonet"></div>
         <div class="roadmap-desc">
           <div>2014.04 ~ 2016.01</div>
           <div><span class="company-name" @click="goCompany('egoonet')">上海易谷网络科技有限公司</span></div>
@@ -41,14 +41,14 @@
           <div>2016.01 ~ 2016.06</div>
           <div><span class="company-name" @click="goCompany('dada')">上海卓赞信息科技有限公司</span></div>
         </div>
-        <div class="roadmap-item-point" style="background-image: url('http://oald2814c.bkt.clouddn.com/dada.svg');"></div>
+        <div class="roadmap-item-point" id="dada"></div>
       </div>
       <div class="roadmap-item">
         <div class="roadmap-desc">
           <div>2016.06</div>
           <div><span class="company-name" @click="goCompany('hanlan')">上海翰蓝网络科技有限公司</span></div>
         </div>
-        <div class="roadmap-item-point" style="background-image: url('http://oald2814c.bkt.clouddn.com/zhezhe.jpg');"></div>
+        <div class="roadmap-item-point" id="zhezhe"></div>
       </div>
     </div>
 
@@ -80,16 +80,16 @@
 
     <div class="hobby">
       <div>
-        <img src="http://oald2814c.bkt.clouddn.com/hobby_switch.png">
-        <img src="http://oald2814c.bkt.clouddn.com/hobby_basketball.png">
-        <img src="http://oald2814c.bkt.clouddn.com/hobby_movie.png">
-        <img src="http://oald2814c.bkt.clouddn.com/hobby_music.png">
-        <img src="http://oald2814c.bkt.clouddn.com/hobby_travel.png">
+        <img src="../../assets/img/hobby_switch.png">
+        <img src="../../assets/img/hobby_basketball.png">
+        <img src="../../assets/img/hobby_movie.png">
+        <img src="../../assets/img/hobby_music.png">
+        <img src="../../assets/img/hobby_travel.png">
       </div>
     </div>
     
     <div class="avatar">
-      <img src="http://oald2814c.bkt.clouddn.com/my_avatar.png">
+      <img src="../../assets/img/my_avatar.png">
     </div>
     
     <div class="contact mail">

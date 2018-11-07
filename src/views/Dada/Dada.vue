@@ -13,7 +13,7 @@
           用WebRTC取代先前的基于flash的视频架构，但WebRTC是点对点的模式，因此引入Kurento来实现Server端对流的控制。
 
           <div class="frame-view">
-            <img src="http://oald2814c.bkt.clouddn.com/project_dada.png">
+            <img src="../../assets/img/project_dada.png">
             <div class="tip">架构概览</div>
           </div>
         </div>

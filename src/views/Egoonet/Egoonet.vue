@@ -14,7 +14,7 @@
           FreeSWITCH常用运维操作整合相关业务的后端管理系统
 
           <div class="frame-view">
-            <img src="http://oald2814c.bkt.clouddn.com/egoonet_2.png?1">
+            <img src="../../assets/img/project_egoonet_1.png">
             <div class="tip">架构概览</div>
           </div>
         </div>
@@ -30,7 +30,7 @@
           <strong>通知公告</strong>
           
           <div class="frame-view">
-            <img src="http://oald2814c.bkt.clouddn.com/egoonet_1.png">
+            <img src="../../assets/img/project_egoonet_2.png">
             <div class="tip">架构概览</div>
           </div>
           

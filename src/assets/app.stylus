@@ -62,3 +62,19 @@ html,body,#app
   position absolute
   top 1rem
   right 0
+  cursor pointer
+
+#njupt
+  background-image url('./img/njupt.jpeg')
+
+#graduation
+  background-image url('./img/graduation.png')
+
+#egoonet
+  background-image url('./img/egoonet.png')
+
+#dada
+  background-image url('./img/dada.svg')
+
+#zhezhe
+  background-image url('./img/zhezhe.png')

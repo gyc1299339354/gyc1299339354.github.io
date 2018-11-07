@@ -9,8 +9,7 @@ export class LoadingView extends Vue {
   public typeStrings = [
     'Welcome',
     'I am Neo Geng',
-    'Nice to meet you',
-    'Loading now ...'
+    'Nice to meet you'
     // 'Please give me a little time to load ...',
     // 'Thank you for your patience !'
   ]
@@ -21,6 +20,6 @@ export class LoadingView extends Vue {
     const t = setTimeout(() => {
       clearTimeout(t)
       this.visible_GoDirectlyBtn = true
-    }, 6000)
+    }, 3000)
   }
 }

@@ -14,7 +14,7 @@
         <h3 class="project-name">喵见后台管理系统</h3>
         <div class="project-desc">
           <div class="frame-view">
-            <img src="http://oald2814c.bkt.clouddn.com/project_zhezhe.png?1">
+            <img src="../../assets/img/project_zhezhe.png">
             <div class="tip">架构概览</div>
           </div>
         </div>
@@ -23,7 +23,7 @@
         <h3 class="project-name">小学问后台管理系统</h3>
         <div class="project-desc">
           <div class="frame-view">
-            <img src="http://oald2814c.bkt.clouddn.com/xiaoxuewen.png">
+            <img src="../../assets/img/project_xiaoxuewen.png">
             <div class="tip">架构概览</div>
           </div>
         </div>
